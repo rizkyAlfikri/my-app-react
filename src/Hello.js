@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hello({name, suffixName}) {
+function Hello({name = "yaya", suffixName = "yahoo"}) {
     return <h1>Hello {name ?? "Alice"} {suffixName}</h1>
 }
 
